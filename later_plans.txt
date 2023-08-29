@@ -1,0 +1,2 @@
+1. The ability to save the results in a text file, with the date of the videos.
+2. Make everything thorugh a single python file
