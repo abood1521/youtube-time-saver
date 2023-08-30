@@ -12,6 +12,8 @@ ids = []
 channels_I_want_n = []
 channels_I_want_i = []
 
+print("A link is going to appear, copy this link and paste it in your internet explorer, and login using your google account (don't worry I am not going to steal your data :skull:), and then it will start asking you to choose the channels you want to watch\n")  
+
 # The function of the api call
 def main():
     api_service_name = "youtube"
