@@ -69,16 +69,19 @@ def main():
                  pass
     
     print("Done")
-    download = input("Do you want to download all the videos? ")
+    download = input("Do you want to download all the videos (You'll need youtube-dl and you'll probably need to be using Windows)? ")
     # You'll need to downlaod youtube-dl for this to work
     if download == 'y':
         for yl in youtube_links:
             os.system(f' youtube-dl {yl}')
+    print("")
+    print("This will print out all the links of the videos so that it would be easier to copy")
     get_links = input("Do you want to get the links of all the videos? ")
     if get_links == "y":
         for yl in youtube_links:
             print(yl)
-   
+    print("")
+    print("This will save all the links to the (saved_links.txt) file") 
     save_for_later = input("Do you want to save the links for a later day? ")
     
     if save_for_later == "y":
