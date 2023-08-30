@@ -1,7 +1,7 @@
 # youtube--time-saver
 A tool that get's you all the video you ACTUALLY want from the channels you ACTUALLY watch
 ## What does it do?
-It gives the videos from the channels you are subscribed (and chose) to and were uploaded today, so that you wouldn't waste a lot of tiem watching things that you wouldn't benefit from, but watch the things you actually care about.
+It gives you the videos from the channels you are subscribed (and chose) to, and were uploaded today, so that you wouldn't waste a lot of time watching things that you wouldn't benefit from, but watch the things you actually care about.
 
 ## Setting It Up:
 1. Install required packages bu running ```pip install -r requirements.txt```
